@@ -1,0 +1,14 @@
+@mixin break($width-size) {
+    @if $width-size == s {
+        @media (min-width: 300px) { @content; }
+    }
+    @else if $width-size == m {
+        @media (min-width: 768px) {@content; }
+    }
+    @else if $width-size == l {
+        @media (min-width: 1025px) {@content; }
+    }
+    @else {
+        @warn "Invalid width size for '#{$width-size}'. use: s, m, or l."
+    }
+}
