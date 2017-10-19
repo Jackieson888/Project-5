@@ -1,2 +1,29 @@
-.container {
+.card {
+    margin: $block-space auto;
+}
+.headline--primary {
+    color: $primary-color;
+    font-family: $primary-font;
+    font-weight: $font-weight--xtr-bold;
+}
+.headline--secondary {
+    text-align: left;
+    color: $secondary-color;
+    font-family: $primary-font;
+    font-weight: $font-weight--thin;
+}
+.link {
+    text-decoration: none;
+    font-weight: $font-weight--bold;
+    color: $default;
+}
+.blockquote {
+    color: $secondary-color;
+    font-family: $primary-font;
+    font-size: 24px;
+    text-align: left;
+    border-left: 10px solid $primary-color;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-style:italic;
 }

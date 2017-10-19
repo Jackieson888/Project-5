@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.form__input {
+    border: none;
+    border-bottom: 10px solid $primary-color;
+    border-radius: 5px;
+    margin: $sibling-space 10px;
+    &:focus {
+        outline: none;
+    }
+}
+.form__input::placeholder {
+    color: darken($secondary-color, 20);
+    font-size: 12px;
+    font-family: $primary-font;
+    font-weight: $font-weight--bold;
+    transform: translate(10px, -5px)
+}
+.form__label--hidden {
+    @include mq(small) {
+        display: none;
+    }
+}

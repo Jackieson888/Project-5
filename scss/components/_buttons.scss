@@ -1,0 +1,12 @@
+[class^="btn--"] {
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: $font-weight--bold;
+    margin: $sibling-space 0;
+}
+.btn--default {
+    background-color: $default;
+}

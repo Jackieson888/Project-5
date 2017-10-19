@@ -1,0 +1,11 @@
+.img--logo {
+    margin: $block-space auto;
+}
+.img--avatar {
+    margin: $block-space auto;
+}
+.img--frame {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid lighten($secondary-color, 35);
+}

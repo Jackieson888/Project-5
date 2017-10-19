@@ -1,3 +1,17 @@
+//Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+$primary-font: 'Roboto', sans-serif;
+
+//Weights
+
+$font-weight--thin : 100;
+$font-weight--light: 300;
+$font-weight--medium: 400;
+$font-weight--heavy: 500;
+$font-weight--bold: 700;
+$font-weight--xtr-bold: 900;
+
 //Colors
 
 $primary-color  : #58E1C1; //Turquoise
@@ -21,9 +35,20 @@ $col--5 : #88D9A0; //Granny Smith Apple Green
 $col--7 : #EC9FA3; //Wax Flower Orange
 $col--8 : #FD9F85; //Mona Lisa Red
 
+//Spacing
+
+$block-space : 50px;
+$sibling-space : 12px;
+
 //Grid Layout
 
 $g-col-width: 65px;
 $g-gutter-width: 20px;
 $g-col-count: 12;
 $g-cont-max-w: 1050px;
+
+// Breakpoints
+
+$brkpoint-sm: 1px;
+$brkpoint-md: 768px;
+$brkpoint-lg: 1100px;
